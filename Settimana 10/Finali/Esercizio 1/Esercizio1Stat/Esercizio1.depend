@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1417826195 source:c:\users\giorgia\desktop\esercizio1\esercizio1.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"list.h"
+
+1417825810 c:\users\giorgia\desktop\esercizio1\list.h
+
+1417826123 source:c:\users\giorgia\desktop\esercizio1\list.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+
+1417828808 source:c:\users\giorgia\desktop\esercizio1\liststat.c
+	<stdio.h>
+	<stdlib.h>
+	"listStat.h"
+
+1417828453 source:c:\users\giorgia\desktop\esercizio1\esercizio1stat.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"listStat.h"
+
+1417828718 c:\users\giorgia\desktop\esercizio1\liststat.h
+
+1417977080 source:c:\users\giorgia\desktop\esercizio1stat\esercizio1stat.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"listStat.h"
+
+1417977134 c:\users\giorgia\desktop\esercizio1stat\liststat.h
+
+1417977044 source:c:\users\giorgia\desktop\esercizio1stat\liststat.c
+	<stdio.h>
+	<stdlib.h>
+	"listStat.h"
+
+1417977044 source:c:\users\giorgia\desktop\finali\esercizio 1\esercizio1stat\liststat.c
+	<stdio.h>
+	<stdlib.h>
+	"listStat.h"
+
+1417977134 c:\users\giorgia\desktop\finali\esercizio 1\esercizio1stat\liststat.h
+

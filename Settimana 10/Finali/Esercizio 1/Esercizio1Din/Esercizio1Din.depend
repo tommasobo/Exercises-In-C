@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1417912689 source:c:\users\giorgia\desktop\esercizio1din\esercizio1din.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"listDin.h"
+
+1417977298 c:\users\giorgia\desktop\esercizio1din\listdin.h
+
+1417913920 source:c:\users\giorgia\desktop\esercizio1din\listdin.c
+	<stdio.h>
+	<stdlib.h>
+	"listDin.h"
+
+1417990120 source:c:\users\giorgia\desktop\finali\esercizio 1\esercizio1din\esercizio1din.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"listDin.h"
+
+1417990120 c:\users\giorgia\desktop\finali\esercizio 1\esercizio1din\listdin.h
+
+1418066999 source:c:\users\giorgia\desktop\finali\esercizio 1\esercizio1din\listdin.c
+	<stdio.h>
+	<stdlib.h>
+	"listDin.h"
+

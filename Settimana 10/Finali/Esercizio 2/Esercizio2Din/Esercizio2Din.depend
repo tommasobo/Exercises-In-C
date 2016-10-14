@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1417982325 source:c:\users\giorgia\desktop\esercizio2din\esercizio2din.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"PilaDin.h"
+
+1417980390 c:\users\giorgia\desktop\esercizio2din\piladin.h
+
+1417980211 source:c:\users\giorgia\desktop\esercizio2din\piladin.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"PilaDin.h"
+
+1417990533 source:c:\users\giorgia\desktop\finali\esercizio 2\esercizio2din\esercizio2din.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"PilaDin.h"
+
+1417990533 c:\users\giorgia\desktop\finali\esercizio 2\esercizio2din\piladin.h
+
+1417990533 source:c:\users\giorgia\desktop\finali\esercizio 2\esercizio2din\piladin.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"PilaDin.h"
+

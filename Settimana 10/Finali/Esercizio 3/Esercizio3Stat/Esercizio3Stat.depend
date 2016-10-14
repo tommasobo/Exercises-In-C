@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1417984274 source:c:\users\giorgia\desktop\esercizio3stat\codastat.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"CodaStat.h"
+
+1417983366 c:\users\giorgia\desktop\esercizio3stat\codastat.h
+
+1417983366 source:c:\users\giorgia\desktop\esercizio3stat\esercizio3stat.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"CodaStat.h"
+
+1417990914 source:c:\users\giorgia\desktop\finali\esercizio 3\esercizio3stat\esercizio3stat.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"CodaStat.h"
+
+1417991558 c:\users\giorgia\desktop\finali\esercizio 3\esercizio3stat\codastat.h
+
+1417991558 source:c:\users\giorgia\desktop\finali\esercizio 3\esercizio3stat\codastat.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"CodaStat.h"
+

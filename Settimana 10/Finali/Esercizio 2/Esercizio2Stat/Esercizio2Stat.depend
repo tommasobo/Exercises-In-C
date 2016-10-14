@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1417979223 source:c:\users\giorgia\desktop\esercizio2stat\esercizio2stat.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"PilaStat.h"
+
+1417979238 c:\users\giorgia\desktop\esercizio2stat\pilastat.h
+
+1417963854 source:c:\users\giorgia\desktop\esercizio2stat\pilastat.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"PilaStat.h"
+
+1417979223 source:c:\users\giorgia\desktop\finali\esercizio2stat\esercizio2stat.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"PilaStat.h"
+
+1417979238 c:\users\giorgia\desktop\finali\esercizio2stat\pilastat.h
+
+1417979371 source:c:\users\giorgia\desktop\finali\esercizio2stat\pilastat.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"PilaStat.h"
+
+1417990593 source:c:\users\giorgia\desktop\finali\esercizio 2\esercizio2stat\esercizio2stat.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"PilaStat.h"
+
+1417990593 c:\users\giorgia\desktop\finali\esercizio 2\esercizio2stat\pilastat.h
+
+1417990593 source:c:\users\giorgia\desktop\finali\esercizio 2\esercizio2stat\pilastat.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"PilaStat.h"
+

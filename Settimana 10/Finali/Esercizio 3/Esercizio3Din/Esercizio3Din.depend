@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1417989700 source:c:\users\giorgia\desktop\esercizio3din\codadin.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"CodaDin.h"
+
+1417989700 source:c:\users\giorgia\desktop\esercizio3din\esercizio3din.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"CodaDin.h"
+
+1417989821 c:\users\giorgia\desktop\esercizio3din\codadin.h
+
+1417991826 source:c:\users\giorgia\desktop\finali\esercizio 3\esercizio3din\codadin.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"CodaDin.h"
+
+1417990998 c:\users\giorgia\desktop\finali\esercizio 3\esercizio3din\codadin.h
+
+1417991826 source:c:\users\giorgia\desktop\finali\esercizio 3\esercizio3din\esercizio3din.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"CodaDin.h"
+

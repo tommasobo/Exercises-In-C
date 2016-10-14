@@ -1,0 +1,27 @@
+L'architettura di Von Neumann è un'astrazione a livello logico del funzionamento di un calcolatore.
+Questa architettura spiega come dei dati in input possono essere trasformati in dei dati di output attraverso dei programmi. Questi programmi, insieme ai dati intermedi dei calcoli, sono contenuti in una stessa memoria fisica che permette sia la loro lettura sia la scrittura. Ogni contenuto della memoria è indirizzato in base alla loro posizione.
+I componenti di una macchina di Von Neumann possono essere quindi riassunti nel seguente modo:
+	*Le unità di input
+	*Le unità di output
+	*La CPU che è composta a sua volta dall’unità di controllo, l’unità aritmetico-logica, registri di memoria e l’orologio di sistema (clock).
+	*La memoria in cui sono contenti i programmi e dati
+I programmi per essere compresi dal calcolatore devono essere codificati in codice binario e devono essere in grado di eseguire istruzioni di elaborazione e istruzioni di trasferimeno tra diversi componenti. E’ importante sottolineare che le istruzioni sono sempre eseguite in maniera sequenziale.
+Il ciclo continuo di funzionamento di una macchina di Von Neumann può essere rappresentato nel seguente modo:
+	1) La CPU estrae le istruzioni dalla memoria (fetch)
+	2) La CPU decodifica le istruzioni determinando le operazioni da svolgere (decode)
+	3) La CPU esegue le istruzioni (execute)
+I dati e i programmi presenti nella memoria devono essere velocemente reperibili (idealmente alla stessa velocità della CPU) e questo caraterizza la memoria centrale che si contrappone alla memoria di massa (grande capacità di memorizzazione permanente ma bassa velocità e costi più contenuti).
+Esistono altri livelli di memoria nell’architettura di Von Neumann:
+	* I registri (inerni alla CPU) capaci di memorizzare parole singole
+	* La memoria cache (integrata alla CPU) in cui sono salvati i dati e programmi usati più frequentemente 
+	* La memoria centrale (esterna alla CPU ma interna all’elaboratore)
+	* La memoria secondaria (esterna anche al calcolatore)
+I dati vengono salvati nella memoria come un insieme di bit. 8 bit costituiscono un byte e la parola o word (una potenza di 2: tipicamente 1, 2, 4, 8) di memoria è la più piccola quantità di memoria accessibile. Ogni cella di memoria ha un proprio indirizzo (la prima è 0) che può essere raggiunto attraverso un registro degli indirizzi (MAR). A seconda della grandezza del registro degli indirizzi possono essere raggiunte più o meno celle: con 32 bit si possono raggiungere 2^32 indirizzi e con 64 bit si possono raggiungere 2^64 indirizzi.
+I dati e le istruzioni viaggiono tra i vari componenti attraverso dei bus:
+	* Il bus degli indirizzi “trasporta” il numero dell’indirizzo a cui si vuole accedere
+	* Il bus dei dati trasporta i dati stessi
+	* Il bus di controllo specifica che operazione deve venir fatta (lettura o scrittura)
+Per eseguire le operazioni di lettura\scrittura è necessario utilizzare un altro registro, in particolare il registro dei dati (MDR) che possiede la stessa dimensione della parola e che viene utilizzato per contenere il dato letto/scritto.
+Esistono altri registri presenti nella CPU oltre a quelli già citati come il Program Counter (PC) che indica la prossima istruzione da eseguire e l’Instruction Register che contiene l'istruzione da decodificare e eseguire;
+
+Un buon programmatore dovrebbe conoscere il funzionamento di un elaboratore e la sua architettura perchè a seconda della macchina che stiamo usando potrebbero esserci delle differenze in come la macchina interpreterà il nostro codice. Per esempio nel linguaggio C a seconda della lunghezza della “word” (32 o 64 bit) si può avere una diversa lunghezza del tipo int che può essere appunto 4 o 8 byte. Inoltre conoscendo bene il funzionamento della propria architettura è possibile realizzare programmi più efficienti e veloci, per esempio organizzzndo meglio come i dati vengono salvati (scegliere se salvarli nella RAM o in un disco fisso).
